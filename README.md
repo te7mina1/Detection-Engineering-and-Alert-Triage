@@ -121,4 +121,5 @@ A successful detection workflow requires:
 The project provided practical experience with the complete lifecycle of a SOC detection, from telemetry generation to analyst disposition.
 
 ---
-> All attack simulations were performed in a controlled lab environment for educational and defensive security purposes.
+
+> This project was conducted entirely within a controlled virtual lab environment for educational and defensive cybersecurity purposes. All adversary simulations and security testing activities were authorized and performed against systems within the lab environment.
