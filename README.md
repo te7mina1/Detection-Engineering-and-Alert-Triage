@@ -86,6 +86,39 @@ Hydra was used in the controlled lab environment to simulate repeated SSH authen
 ```bash
 sudo hydra -l ubuntu -P sshFile.txt ssh://192.168.100.142
 ```
+---
+
+## Alert Triage Workflow
+
+A lightweight SOC triage playbook was developed to investigate alerts consistently.
+
+**Triage Process**
+- Identify the alert and triggered rule.
+- Identify the affected endpoint and user account.
+- Review available evidence.
+- Analyze process, command-line, authentication, or network activity.
+- Validate the detected behavior.
+- Determine whether the activity is malicious, benign, or simulated.
+- Assign an analyst disposition.
+- Document findings and recommended actions.
+
+---
+
+## Key Takeaways
+
+This project demonstrated that effective detection engineering is more than simply creating alert rules.
+
+A successful detection workflow requires:
+
+- Reliable telemetry
+- Well-defined detection logic
+- ATT&CK-based threat mapping
+- Controlled testing
+- Detection tuning
+- Alert investigation
+- Consistent analyst triage
+
+The project provided practical experience with the complete lifecycle of a SOC detection, from telemetry generation to analyst disposition.
 
 ---
 > All attack simulations were performed in a controlled lab environment for educational and defensive security purposes.
