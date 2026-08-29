@@ -85,3 +85,7 @@ Hydra was used in the controlled lab environment to simulate repeated SSH authen
 
 ```bash
 sudo hydra -l ubuntu -P sshFile.txt ssh://192.168.100.142
+```
+
+---
+> All attack simulations were performed in a controlled lab environment for educational and defensive security purposes.
